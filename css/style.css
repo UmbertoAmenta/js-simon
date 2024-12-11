@@ -18,6 +18,19 @@ h2 {
     padding: 20px 0;
 }
 
+input {
+    width: 60px;
+    text-align: center;
+}
+
 button {
     margin-top: 20px;
+}
+
+.hidden {
+    display: none;
+}
+
+#warning {
+    color: red;
 }
