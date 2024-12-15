@@ -12,17 +12,17 @@
         <h1 id="countdown">Pronti?</h1>
         <h2 id="text">Memorizza ogni numero presente anche se non in ordine</h2>
         <div>
-            <input id="num1" type="number">
-            <input id="num2" type="number">
-            <input id="num3" type="number">
-            <input id="num4" type="number">
-            <input id="num5" type="number">
+            <input id="num1" type="number" min="1" max="90">
+            <input id="num2" type="number" min="1" max="90">
+            <input id="num3" type="number" min="1" max="90">
+            <input id="num4" type="number" min="1" max="90">
+            <input id="num5" type="number" min="1" max="90">
         </div>
         <button id="btn-confirm" class="hidden">Conferma</button>
         <button id="btn-stop" class="hidden">Ci sono!</button>
         <h2 id="result"></h2>
         <h3 id="matched-nums"></h3>
-        <h3 id="warning" class="hidden">Sono validi solo i numeri compresi tra 0 e 90, inclusi</h3>
+        <h3 id="warning" class="hidden">Sono validi solo i numeri compresi tra 1 e 90, inclusi</h3>
     </div>
     <script src="js/script.js"></script>
 </body>
